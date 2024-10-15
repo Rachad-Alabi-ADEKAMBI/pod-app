@@ -78,7 +78,7 @@ export default function ClaimPod({
 
         toast({
           title: "Cheers!",
-          description: "You have successfully colllected your Proof of Drink",
+          description: "You have successfully collected your Proof of Drink",
         });
         setTxHash(data.txHash);
         setSuccess(true);
